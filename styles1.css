@@ -1,0 +1,162 @@
+body{
+    background-color: #F2F2F2;
+    margin:0 auto;
+    font-family:sans-serif;
+    margin:0 auto;
+}
+
+.top-container{
+    background-color: #171717;
+    padding-left:30px;
+    padding-right:30px;
+
+}
+.logo-section{
+    display: inline-flex;
+    padding-top: 35px;
+    border-bottom: solid #656565 1px;
+   
+}
+
+.top-container .logo-section #top-icons{
+font-size: 25px;
+display: inline-flex;
+padding-top: 22px;
+padding-left: 30px;
+padding-right:250px;
+color:white;
+
+}
+.top-container .logo-section #top-icons #icons{
+
+    padding-right:15px;    
+}
+.logo-section .search{
+    padding-left: 200px;
+    padding-top: 30px;
+    
+}
+.logo-section .search a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding-right: 30px;
+    width:6px;
+
+}
+.menu-section{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.menu-section .navigation{
+  text-align: center;
+  text-decoration:none;
+  margin-right:25px;
+  color:grey;
+}
+
+.menu-section  #active{
+    color:white;
+  }
+
+.images-section .image{
+    display: inline-flex;
+    height: 725px;
+}
+
+/*
+.image-left img{
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}*/
+
+
+
+.image-left{
+    background-image: url("featured-guitarman.jpg");
+    background-size:1000px;
+    width: 60%;
+    height: 500px;
+    color:white; 
+    padding-top:400px;
+    background-repeat: no-repeat;
+    padding-left:30px;
+    text-transform: capitalize;
+
+}
+
+.image-left #music{
+    background-color: #008CBA; 
+    color: white;
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border:none;
+    text-transform: uppercase;
+    
+}
+.image-left #user{
+    border-radius: 50%;
+    height:30px;
+    width:30px;
+    display:inline-flex;
+}
+
+.image-right{
+    display:inline-grid;
+}
+.image-right1{
+    background-image: url("featured-watch.jpg");
+    background-size:500px;
+    width: 110%;
+    height: 162px;
+    color:white;
+    padding-top: 200px;
+    padding-left:30px;
+    background-repeat: no-repeat;    
+    text-align: left;
+
+}
+.image-right1 #management{
+    background-color: #00b752; 
+    color: white;
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border:none;
+    text-transform: uppercase;
+    
+}
+.image-right2{
+    background-image: url("featured-beetle.jpg");
+    background-size:500px;
+    width: 110%;
+    height: 365px;
+    padding-top: 200px;
+    padding-left:30px;
+    color:white;
+    background-repeat: no-repeat;    
+    text-align: left;
+
+}
+.image-right2 #life-style{
+    background-color: #00b752; 
+    color: white;
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border:none;
+    text-transform: uppercase;
+    
+}
+
+
+
+
+
