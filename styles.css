@@ -93,33 +93,24 @@ body{
       color:white;
 }
   
-  
 .images-section .image{
-    display: flex;
-    flex-direction: row;
-    padding-top: 30px;
-    
+    display: grid;
+    grid-template-columns:70% 30%;   
+    margin:0 auto; 
+    padding-top:40px;
 }
-.images-section .image text{
-    color:#928178;
-    font-weight:bold;
+.images-section .left{
+    background-image: url(featured-guitarman.jpg);
+    background-size: cover;
+    grid-column: 1;
+    grid-row:span 2;
+    display:grid;
+    align-content:end;    
 }
-.image-left{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("featured-guitarman.jpg");
-    background-size:111%;
-    background-repeat: no-repeat;
-    color:white; 
-    text-align:left;
-    font-size:15px;
-    padding-left:20px;
-    padding-top:225px;
-    text-transform: capitalize;
-    width:60%;
-}
-.image-left div{
+.left-text div{
     display:inline-block;
 }
-.image-left #music{
+.left-text #music{
     background-color: #008CBA; 
     color: white;
     text-align: center;
@@ -127,76 +118,102 @@ body{
     border:none;
     text-transform: uppercase;
     font-size: 12px;
-    width: 15%; height: 15px;
+    width: 15%; 
+    height: 15px;
 }
-.image-left #user{
+.left-text #user{
     border-radius: 50%;
     height:30px;
     width:30px;
     display:inline-flex;
 }
-.image-left #user{
-    border-radius: 50%;
-    height:30px;
-    width:30px;
-    display:inline-flex;
-}
-.image-right{
-    display: flex;
-    flex-direction: column;
-    width:40%;
-}
-.image-right1{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("featured-watch.jpg");
-    background-size:100%; 
-    color:white;
-    padding-left:30px;
-    background-repeat: no-repeat;    
-    text-align: left;
-    font-size:15px;
-    padding-top: 72px;
-    padding-bottom: 40px;
+
+.images-section .left .left-text{
+ color:white; 
+text-align:left;
+width:65%;
+padding-bottom:50px;
+font-size:15px;
+padding-left:20px;
+padding-top:225px;
+text-transform: capitalize;
 
 }
-.image-right1 #management{
-    background-color: #00b752; 
-    color: white;
-    padding: 3px 8px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border:none;
-    text-transform: uppercase;
-    
+.images-section .image-right{
+    grid-column: 2;
+    width:100%;
 }
-.image-right2{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("featured-beetle.jpg");
-    background-size:100%;
-    padding-left:30px;
-    color:white;
-    background-repeat: no-repeat;    
-    text-align: left;
-    padding-top: 71px;
-    padding-bottom: 28px;
 
+.images-section .image-right .image-right1{
+     
+    background-image: url(featured-watch.jpg);
+    background-size:cover;
+    display:grid;
+    align-content: end;
+    width:100%;
+    height:70vh;
 }
-.image-right2 #life-style{
-    background-color: #00b752; 
-    color: white;
-    padding: 4px 6px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border:none;
-    text-transform: uppercase;
+.right1-text{
+
+        color:white;
+        padding-left:30px;
+        text-align: left;
+        font-size:15px;
+        padding-top: 72px;
+        padding-bottom: 10px;
     
-}
+    }
+
+.right1-text #management{
+        background-color: #00b752; 
+        color: white;
+        padding: 3px 8px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border:none;
+        text-transform: uppercase;
+        
+    }
+    .images-section .image-right .image-right2{
+     
+        background-image: url(featured-beetle.jpg);
+        background-size:cover;
+        display:grid;
+        align-content: end;
+        width:100%;
+        height:70vh;
+    }
+    .right2-text{
+    
+            color:white;
+            padding-left:30px;
+            text-align: left;
+            font-size:15px;
+            padding-top: 72px;
+            padding-bottom: 10px;
+        
+        }
+        .right2-text #life-style{
+            background-color: #00b752; 
+            color: white;
+            padding: 4px 6px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border:none;
+            text-transform: uppercase;
+            
+        }
+
 
 .mid-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding-top: 50px;
+    margin: 0 60px;
+    width:100%;
     background-color: #F2F2F2;
 }
 .middle-container{
